@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:id="@+id/sensorData"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    />
+<jp.sourceforge.gokigen.capture.GokigenSurfaceView
+    android:id="@+id/GraphicView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_below="@id/sensorData"
+    android:layout_alignLeft="@id/sensorData"
+    />
+<jp.sourceforge.gokigen.capture.CameraViewer
+    android:id="@+id/CameraView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_alignTop="@id/GraphicView"
+    android:layout_alignLeft="@id/GraphicView"
+    />
+</RelativeLayout>

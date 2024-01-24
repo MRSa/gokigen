@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <drawable name="mybackground_color">#004000</drawable>
+    <drawable name="color_black">#000000</drawable>
+
+    <color name="mytext_color">#000fff</color>
+    <color name="mybackground_color_blue">#000040</color>
+    <color name="mybackground_color">#004000</color>
+    <color name="color_black">#000000</color>
+
+    <color name="basic_blue1">#5781a9</color>
+    <color name="basic_blue2">#a4bcc6</color>
+    <color name="basic_blue3">#995781a9</color>
+</resources>

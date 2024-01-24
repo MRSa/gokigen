@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+        <ListPreference
+            android:key="showShapeType"
+            android:title="@string/scaleShape_title"
+            android:summary="@string/scaleShape_summary"
+            android:dialogTitle="@string/scaleShape_title"
+            android:entries="@array/shapeType_entries"
+            android:entryValues="@array/shapeType_entryvalues" />
+    </PreferenceCategory>
+</PreferenceScreen>

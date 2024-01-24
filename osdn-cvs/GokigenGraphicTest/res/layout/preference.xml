@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+        <CheckBoxPreference
+            android:key="booleanValue"
+            android:title="@string/booleanValueTitle"
+            android:summary="@string/booleanValueSummary"
+        />
+        <EditTextPreference
+            android:key="stringValue"
+            android:title="@string/stringValueTitle"
+            android:summary="@string/stringValueSummary"
+            android:dialogTitle="@string/stringValueInput"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blank"></string>
+    <string name="app_credit">Taimen Application!</string>
+    <string name="app_name">Taimen</string>
+    <string name="about_gokigen">About</string>
+    <string name="info_default">(Gokigen)</string>
+    <string name="preference_name">Preferences</string>
+    <string name="parameterTitle">preferences</string>
+    <string name="useMultiTouchTitle">Accept a multi-touch</string>
+    <string name="useMultiTouchSummary">Enables multi-touch input</string>
+    <string name="stringValueTitle">string</string>
+    <string name="stringValueSummary">string</string>
+    <string name="stringValueInput">string</string>
+    <string name="confirmYes">OK</string>
+    <string name="confirmNo">Cancel</string>
+</resources>

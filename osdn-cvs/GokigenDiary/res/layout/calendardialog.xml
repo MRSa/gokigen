@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<ImageButton
+    android:id="@+id/showNextMonth"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@xml/rarrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/showPreviousMonth"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@xml/larrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<Button
+    android:id="@+id/todaySelectButton"
+    android:textSize="7pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toLeftOf="@id/showNextMonth"
+    android:layout_alignTop="@id/showNextMonth"
+    android:text="@string/today">
+</Button>
+<TextView  
+    android:id="@+id/showDayYear"
+    android:textSize="8pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/showPreviousMonth"
+    android:layout_toLeftOf="@id/todaySelectButton"
+    android:layout_alignBaseline="@id/showPreviousMonth"
+    android:text="@string/blank"
+    />
+
+<TextView
+    android:id="@+id/SundayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/showPreviousMonth"
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:textSize="7pt"
+    android:text="@string/sundayLabel"
+    >
+</TextView>
+
+<Button
+    android:id="@+id/Calendar00"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/SundayLabel"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar00"
+    android:layout_alignTop="@id/Calendar00"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar01"
+    android:layout_alignTop="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar02"
+    android:layout_alignTop="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar03"
+    android:layout_alignTop="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar05"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar04"
+    android:layout_alignTop="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar06"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar05"
+    android:layout_alignTop="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+
+
+
+
+<Button
+    android:id="@+id/Calendar10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/Calendar00"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar10"
+    android:layout_alignTop="@id/Calendar10"
+    android:layout_alignLeft="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar12"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar11"
+    android:layout_alignTop="@id/Calendar11"
+    android:layout_alignLeft="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar13"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar12"
+    android:layout_alignTop="@id/Calendar12"
+    android:layout_alignLeft="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar13"
+    android:layout_alignTop="@id/Calendar13"
+    android:layout_alignLeft="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar15"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar14"
+    android:layout_alignTop="@id/Calendar14"
+    android:layout_alignLeft="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar15"
+    android:layout_alignTop="@id/Calendar15"
+    android:layout_alignLeft="@id/Calendar06"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+
+
+
+<Button
+    android:id="@+id/Calendar20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/Calendar10"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar21"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar20"
+    android:layout_alignTop="@id/Calendar20"
+    android:layout_alignLeft="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar22"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar21"
+    android:layout_alignTop="@id/Calendar21"
+    android:layout_alignLeft="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar23"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar22"
+    android:layout_alignTop="@id/Calendar22"
+    android:layout_alignLeft="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar24"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar23"
+    android:layout_alignTop="@id/Calendar23"
+    android:layout_alignLeft="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar25"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar24"
+    android:layout_alignTop="@id/Calendar24"
+    android:layout_alignLeft="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar26"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar25"
+    android:layout_alignTop="@id/Calendar25"
+    android:layout_alignLeft="@id/Calendar06"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+<Button
+    android:id="@+id/Calendar30"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/Calendar20"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar31"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar30"
+    android:layout_alignTop="@id/Calendar30"
+    android:layout_alignLeft="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar32"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar31"
+    android:layout_alignTop="@id/Calendar31"
+    android:layout_alignLeft="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar33"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar32"
+    android:layout_alignTop="@id/Calendar32"
+    android:layout_alignLeft="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar34"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar33"
+    android:layout_alignTop="@id/Calendar33"
+    android:layout_alignLeft="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar35"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar34"
+    android:layout_alignTop="@id/Calendar34"
+    android:layout_alignLeft="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar36"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar35"
+    android:layout_alignTop="@id/Calendar35"
+    android:layout_alignLeft="@id/Calendar06"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+
+<Button
+    android:id="@+id/Calendar40"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/Calendar30"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar41"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar40"
+    android:layout_alignTop="@id/Calendar40"
+    android:layout_alignLeft="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar42"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar41"
+    android:layout_alignTop="@id/Calendar41"
+    android:layout_alignLeft="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar43"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar42"
+    android:layout_alignTop="@id/Calendar42"
+    android:layout_alignLeft="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar44"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar43"
+    android:layout_alignTop="@id/Calendar43"
+    android:layout_alignLeft="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar45"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar44"
+    android:layout_alignTop="@id/Calendar44"
+    android:layout_alignLeft="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar46"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar45"
+    android:layout_alignTop="@id/Calendar45"
+    android:layout_alignLeft="@id/Calendar06"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+
+
+
+<Button
+    android:id="@+id/Calendar50"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/Calendar40"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar51"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar50"
+    android:layout_alignTop="@id/Calendar50"
+    android:layout_alignLeft="@id/Calendar01"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar52"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar51"
+    android:layout_alignTop="@id/Calendar51"
+    android:layout_alignLeft="@id/Calendar02"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar53"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar52"
+    android:layout_alignTop="@id/Calendar52"
+    android:layout_alignLeft="@id/Calendar03"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar54"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar53"
+    android:layout_alignTop="@id/Calendar53"
+    android:layout_alignLeft="@id/Calendar04"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar55"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar54"
+    android:layout_alignTop="@id/Calendar54"
+    android:layout_alignLeft="@id/Calendar05"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+<Button
+    android:id="@+id/Calendar56"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_toRightOf="@id/Calendar55"
+    android:layout_alignTop="@id/Calendar55"
+    android:layout_alignLeft="@id/Calendar06"
+    android:background="@xml/smallbuttonstyle"
+    android:textSize="7pt"
+    >
+</Button>
+
+
+<TextView
+    android:id="@+id/MondayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/SundayLabel"
+    android:layout_alignLeft="@id/Calendar01"
+    android:text="@string/mondayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/TuesdayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/MondayLabel"
+    android:layout_alignLeft="@id/Calendar02"
+    android:text="@string/tuesdayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/WednesdayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/TuesdayLabel"
+    android:layout_alignLeft="@id/Calendar03"
+    android:text="@string/wednesdayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/ThursdayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/WednesdayLabel"
+    android:layout_alignLeft="@id/Calendar04"
+    android:text="@string/thursdayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/FridayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/ThursdayLabel"
+    android:layout_alignLeft="@id/Calendar05"
+    android:text="@string/fridayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/SaturdayLabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/FridayLabel"
+    android:layout_alignLeft="@id/Calendar06"
+    android:text="@string/saturdayLabel"
+    android:textSize="7pt"
+    >
+</TextView>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

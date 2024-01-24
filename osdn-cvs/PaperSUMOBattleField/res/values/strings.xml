@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_credit">SUMO SUMO SUMO!</string>
+    <string name="app_name">PaperSUMOBattleField</string>
+    <string name="about_gokigen">About</string>
+    <string name="simulate">Simulate</string>
+    <string name="quit">Quit</string>
+	<string name="no_device">Please connect a ADK board.</string>
+	<string name="rawValueLabel">Sensor Raw Data</string>
+	<string name="blank">  </string>
+	<string name="buttonLabelSymbol">Switches</string>
+	<string name="ledLabelSymbol">LEDs</string>
+	<string name="EMO">Stop Motor</string>
+    <string name="unlatch">release</string>
+   <string name="reset">continue</string>
+	<string name="MotorASymbol">Motor A</string>
+    <string name="MotorBSymbol">Motor B</string>
+	<string name="preference_name">Preferences</string>
+    <string name="preferenceTitle">Settings</string>
+    <string name="normalModeTitle">Normal Mode</string>
+    <string name="thresholdMoveLowerLimitATitle">Moving lower limit (A)</string>
+    <string name="thresholdMoveLowerLimitBTitle">Moving lower limit (B)</string>
+    <string name="thresholdMoveLowerLimitSummary"></string>
+    <string name="thresholdMoveUpperlimitABTitle">Moving upper limit (AB)</string>
+    <string name="thresholdMoveUpperlimitSummary"></string>
+    <string name="movingResolutionTitle">Moving Resolution</string>
+    <string name="movingResolutionSummary"></string>
+    <string name="demoModeTitle">Demonstration Mode</string>
+    <string name="thresholdVolumeOffsetATitle">Volume Offset (A)</string>
+    <string name="thresholdVolumeOffsetBTitle">Volume Offset (B)</string>
+    <string name="thresholdVolumeOffsetSummary"></string>
+    <string name="taikoOnThresholdTitle">Drum on Threshold</string>
+    <string name="taikoOnThresholdSummary"></string>
+    <string name="thresholdVolumeRateTitle">Volume Rate</string>
+    <string name="thresholdVolumeRateSummary"></string>
+    <string name="thresholdVolumeCountTitle">Volume Count</string>
+    <string name="thresholdVolumeCountSummary"></string>
+    <string name="sensor_ThresholdTitle">Sensor Threshold</string>
+    <string name="thresholdAFalldownTitle">Sensor A falldown (ms)</string>
+    <string name="thresholdBFalldownTitle">Sensor B falldown (ms)</string>
+    <string name="thresholdFalldownSummary">Sensor Threshold (ms)</string>
+    <string name="sensorA_UpperTitle">Sensor A(Upper limit)</string>
+    <string name="sensorB_UpperTitle">Sensor B(Upper limit)</string>
+    <string name="sensorA_LowerTitle">Sensor A(Lower limit)</string>
+    <string name="sensorB_LowerTitle">Sensor B(Lower limit)</string>
+
+    <string name="thresholdA1UpperTitle">Sensor A1 upper limit</string>
+    <string name="thresholdA1LowerTitle">Sensor A1 lower limit</string>
+    <string name="thresholdA2UpperTitle">Sensor A2 upper limit</string>
+    <string name="thresholdA2LowerTitle">Sensor A2 lower limit</string>
+    <string name="thresholdA3UpperTitle">Sensor A3 upper limit</string>
+    <string name="thresholdA3LowerTitle">Sensor A3 lower limit</string>
+    <string name="thresholdA4UpperTitle">Sensor A4 upper limit</string>
+    <string name="thresholdA4LowerTitle">Sensor A4 lower limit</string>
+
+    <string name="thresholdB1UpperTitle">Sensor B1 upper limit</string>
+    <string name="thresholdB1LowerTitle">Sensor B1 lower limit</string>
+    <string name="thresholdB2UpperTitle">Sensor B2 upper limit</string>
+    <string name="thresholdB2LowerTitle">Sensor B2 lower limit</string>
+    <string name="thresholdB3UpperTitle">Sensor B3 upper limit</string>
+    <string name="thresholdB3LowerTitle">Sensor B3 lower limit</string>
+    <string name="thresholdB4UpperTitle">Sensor B4 upper limit</string>
+    <string name="thresholdB4LowerTitle">Sensor B4 lower limit</string>
+
+    <string name="thresholdUpperSummary">Switch ON upper limit</string>
+    <string name="thresholdLowerSummary">Switch ON lower limit</string>
+
+    <string name="operationMode_title">Operation Mode</string>
+    <string name="operationMode_summary">Operation Mode</string>
+
+    <string name="manualModeTitle">Manual Mode</string>
+    <string name="stopMotorWhenLoseTitle">Stop Motor when a fighter loss</string>
+    <string name="stopMotorWhenLoseSummary"></string>
+
+    <string name="musicFileTitle">MP3 File name</string>
+    <string name="musicFileSummary">A MP3 file name for demonstration mode</string>
+    <string name="selectFile">Select MP3...</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">android-skeleton</string>
+    <string name="app_finished">　is finished.</string>
+    <string name="app_started">　is started.</string>
+    <string name="app_credit">android app. credit</string>
+    <string name="preference_name">Preferences</string>
+    <string name="parameterTitle">preferences</string>
+    <string name="booleanValueTitle">bool</string>
+    <string name="booleanValueSummary">bool</string>
+    <string name="stringValueTitle">string</string>
+    <string name="stringValueSummary">string</string>
+    <string name="stringValueInput">string</string>
+    <string name="information">Information</string>
+    <string name="btnLabel">Button</string>
+    <string name="hintMessageInput">Help Input Text</string>
+    <string name="confirmYes">OK</string>
+    <string name="confirmNo">Cancel</string>
+    <string name="today">Today</string>
+    <string name="sundayLabel">Sun</string>
+    <string name="mondayLabel">Mo</string>
+    <string name="tuesdayLabel">Tue</string>
+    <string name="wednesdayLabel">We</string>
+    <string name="thursdayLabel">Thu</string>
+    <string name="fridayLabel">Fri</string>
+    <string name="saturdayLabel">Sat</string>
+    <string name="blank"></string>
+</resources>

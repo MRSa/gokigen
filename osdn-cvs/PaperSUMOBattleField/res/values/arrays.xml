@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operationMode_entries">
+        <item>Normal</item>
+        <item>Demonstration</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="operationMode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

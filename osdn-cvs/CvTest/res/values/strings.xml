@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CvTest</string>
+    <string name="app_credit">OpenCV Running-Test Program</string>
+    <string name="blank"></string>
+    <string name="about_gokigen">About</string>
+    <string name="no_device">Please connect a ADK board.</string>
+    <string name="preference_name">Preferences</string>
+    <string name="parameterTitle">Preferences</string>
+    <string name="singleControl">Single Control Mode</string>
+    <string name="singleControlSummary"></string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!--  GRIPPER  OPEN  -->
+    <Button
+        android:id="@+id/Grip_Open"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_alignParentLeft="true"
+        android:text="Open">
+    </Button>
+
+    <!--   WRIST TURN LEFT  -->
+    <Button
+        android:id="@+id/Wrist_Left"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Grip_Open"
+        android:text="Wr.L">
+    </Button>
+
+    <!--   ELBOW UP  -->
+    <Button
+        android:id="@+id/Elbow_Up"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Wrist_Left"
+        android:text="El.Up">
+    </Button>
+
+    <!--   SHOULDER UP  -->
+    <Button
+        android:id="@+id/Shoulder_Up"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Elbow_Up"
+        android:text="Sh.Up">
+    </Button>
+
+    <!--  BASE LEFT  -->
+    <Button
+        android:id="@+id/Base_Left"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/Shoulder_Up"
+        android:text="Bs.L">
+    </Button>
+
+
+    <!--  CAMERA VIEW  -->
+    <jp.sourceforge.gokigen.mr999ctl.CameraViewer
+        android:id="@+id/CameraView"
+        android:layout_width="320px" 
+        android:layout_height="240px" 
+        android:layout_toRightOf="@id/Grip_Open"
+        android:layout_alignTop="@id/Grip_Open"
+        android:layout_marginRight="5px">
+    </jp.sourceforge.gokigen.mr999ctl.CameraViewer>
+
+    <!--   INFORMATION AREA -->
+    <TextView
+        android:id="@+id/infoArea"
+        android:text="@string/info"
+        android:textSize="6pt"
+        android:textColor="#00ef00"
+        android:layout_below="@id/CameraView"
+        android:layout_alignLeft="@id/CameraView"
+        android:layout_width="320px"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+    <!--  GRIPPER  CLOSE  -->
+    <Button
+        android:id="@+id/Grip_Close"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:text="Close"
+        android:layout_toRightOf="@id/CameraView"
+        android:layout_alignTop="@id/CameraView"
+        android:layout_marginRight="5px">
+    </Button>
+
+    <!--   WRIST TURN LEFT  -->
+    <Button
+        android:id="@+id/Wrist_Right"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_below="@id/Grip_Close"
+        android:layout_alignLeft="@id/Grip_Close"
+        android:text="Wr.R">
+    </Button>
+
+    <!--   ELBOW DOWN  -->
+    <Button
+        android:id="@+id/Elbow_Down"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_below="@id/Wrist_Right"
+        android:layout_alignLeft="@id/Wrist_Right"
+        android:text="El.Dwn">
+    </Button>
+
+    <!--   SHOULDER DOWN  -->
+    <Button
+        android:id="@+id/Shoulder_Down"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_below="@id/Elbow_Down"
+        android:layout_alignLeft="@id/Elbow_Down"
+        android:text="Sh.Dwn">
+    </Button>
+
+    <!--  BASE RIGHT  -->
+    <Button
+        android:id="@+id/Base_Right"
+        android:layout_width="70px" 
+        android:layout_height="35px" 
+        android:textSize="6pt"
+        android:layout_below="@id/Shoulder_Down"
+        android:layout_alignLeft="@id/Shoulder_Down"
+        android:text="Bs.R">
+    </Button>
+
+    <!--  STOP  -->
+    <Button
+        android:id="@+id/Stop"
+        android:layout_width="70px" 
+        android:layout_height="40px" 
+        android:layout_marginTop="15px"
+        android:textSize="7pt"
+        android:layout_below="@id/Base_Left"
+        android:layout_alignLeft="@id/Base_Left"
+        android:layout_alignBottom="@id/CameraView"
+        android:text="STOP">
+    </Button>
+
+    <!--  CONFIG  -->
+    <Button
+        android:id="@+id/Config"
+        android:layout_width="70px" 
+        android:layout_height="40px" 
+        android:textSize="7pt"
+        android:layout_marginTop="15px"
+        android:layout_alignBottom="@id/CameraView"
+        android:layout_alignLeft="@id/Base_Right"
+        android:layout_below="@id/Base_Right"
+        android:text="Config">
+    </Button>
+
+</RelativeLayout>

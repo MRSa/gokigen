@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<ImageView 
+    android:id="@+id/BackgroundView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:background="@color/mybackground_color_blue"
+    android:contentDescription="@string/blank"
+    />
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mybackground_color"
+    android:id="@+id/OkakenMainView"
+    >
+
+<TextView  
+    android:id="@+id/MainInformation"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    android:visibility="gone"
+    />
+
+<Button
+    android:id="@+id/InstructionButton"
+    android:textSize="7pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="@string/title_btnInstruction"
+    android:visibility="gone"
+    android:contentDescription="@string/blank"
+    >
+</Button>
+<jp.sfjp.gokigen.okaken.GokigenSurfaceView
+    android:id="@+id/MainView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/MainInformation"
+    android:layout_above="@id/InstructionButton"
+    />
+</RelativeLayout>
+
+</merge>

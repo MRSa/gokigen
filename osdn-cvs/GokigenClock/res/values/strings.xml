@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GokigenClock</string>
+    <string name="preference_name">設定項目</string>
+    <string name="parameterTitle">preferences</string>
+    <string name="booleanValueTitle">bool</string>
+    <string name="booleanValueSummary">bool</string>
+    <string name="stringValueTitle">string</string>
+    <string name="stringValueSummary">string</string>
+    <string name="stringValueInput">string</string>
+    <string name="information">Information</string>
+    <string name="btnLabel">Button</string>
+    <string name="blank"></string>
+</resources>

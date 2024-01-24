@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+    >
+
+<ImageButton
+    android:id="@+id/showNextDataItem"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/rarrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/showPreviousDataItem"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/larrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<ScrollView
+    android:id="@+id/dataDiaryScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_above="@id/showNextDataItem"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<!--
+<TextView  
+    android:textSize="5pt"
+    android:id="@+id/dateInfoTitle"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/savedTime"
+    />
+-->
+
+<TextView  
+    android:textSize="8pt"
+    android:id="@+id/dateInfo"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/dummyData"
+    />
+
+<TextView
+    android:id="@+id/locationTitle"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/dateInfo"
+    android:textSize="5pt"
+    android:text="@string/dummyData"
+/>
+
+<TextView
+    android:id="@+id/showLocation"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/locationTitle"
+    android:textSize="6pt"
+    android:text="@string/dummyData"
+/>
+
+<ImageView
+    android:id="@+id/pictureView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/showLocation"
+    android:layout_alignParentLeft="true"
+    >
+</ImageView>
+
+
+<ImageView
+    android:id="@+id/showEmotionIcon"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_gravity="center_vertical"
+    android:maxHeight="44dp"
+    android:maxWidth="44dp"
+    android:layout_width="40dp" 
+    android:layout_height="40dp" 
+    android:layout_below="@id/pictureView"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/emo_im_tongue_sticking_out"
+    >
+</ImageView>
+
+<RatingBar
+    android:id="@+id/showRate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/pictureView"
+    android:isIndicator="true"
+    android:layout_toRightOf="@id/showEmotionIcon"
+    android:layout_alignTop="@id/showEmotionIcon"
+    android:numStars="5"
+    android:stepSize="0.1"
+    android:rating="0"
+    android:textSize="8pt"
+/>
+
+
+<TextView
+    android:id="@+id/commentTitle"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/showRate"
+    android:textSize="8pt"
+    android:text="@string/labelDescription"
+/>
+
+<TextView
+    android:id="@+id/showComment"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/commentTitle"
+    android:autoLink="all"
+    android:linksClickable="true"
+    android:textSize="9pt"
+    android:text="@string/dummyData"
+/>
+
+<TextView
+    android:id="@+id/numberValueTitle"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/showComment"
+    android:textSize="8pt"
+    android:text="@string/numberTitle"
+/>
+
+<TextView
+    android:id="@+id/showNumberValue"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/numberValueTitle"
+    android:textSize="9pt"
+    android:text="@string/dummyData"
+/>
+
+</RelativeLayout>
+</ScrollView>
+
+<TextView  
+    android:textSize="6pt"
+    android:id="@+id/dateTimeArea"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toLeftOf="@id/showNextDataItem"
+    android:layout_alignParentBottom="true"
+    android:text="@string/blank"
+    />
+
+<jp.sourceforge.gokigen.diary.GokigenSurfaceView
+    android:id="@+id/DateTimeDataView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@id/showPreviousDataItem"
+    android:layout_toLeftOf="@id/dateTimeArea"
+    android:layout_below="@id/dataDiaryScrollView"
+    />
+    <!--android:background="#004000"-->
+
+</RelativeLayout>

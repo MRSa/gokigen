@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SensorsChecker</string>
+    <string name="preference_name">設定項目</string>
+    <string name="logcat_name">logcat</string>
+    <string name="parameterTitle">preferences</string>
+    <string name="networkGpsTitle">位置情報をネットワーク</string>
+    <string name="networkGpsSummary">チェックを入れると位置情報をネットワークから取得します。</string>
+    <string name="isRecordTitle">センサ記録</string>
+    <string name="isRecordSummary">チェックを入れるとセンサ情報を記録します。</string>
+    <string name="isAppendTitle">追記(センサ)</string>
+    <string name="isAppendSummary">チェックを入れるとファイルを追記モードにします。</string>
+    <string name="recordFileNameTitle">センサ記録ファイル名</string>
+    <string name="recordFileNameSummary">センサ情報を記録するファイル名を設定します。</string>
+    <string name="isRecordLocationTitle">位置情報記録</string>
+    <string name="isRecordLocationSummary">チェックを入れると位置情報を記録します。</string>
+    <string name="isAppendLocationTitle">追記(位置情報記録)</string>
+    <string name="isAppendLocationSummary">チェックを入れるとファイルを追記モードにします。</string>
+    <string name="recordLocationFileNameTitle">位置情報記録ファイル名</string>
+    <string name="recordLocationFileNameSummary">位置情報を記録するファイル名を設定します。</string>
+    <string name="information">Information</string>
+    <string name="btnLabel">Button</string>
+    <string name="blank"></string>
+    <string name="confirmClose">クローズします。よろしいですか？</string>
+    <string name="confirmYes">OK</string>
+    <string name="confirmNo">Cancel</string>
+</resources>

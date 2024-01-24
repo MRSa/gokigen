@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blank"></string>
+    <string name="app_name">SoundPlay</string>
+    <string name="app_credit">Sound Player!!</string>
+    <string name="about_gokigen">About</string>
+    <string name="info_default">(Gokigen)</string>
+    <string name="preference_name">Preferences</string>
+    <string name="selectFile">Select file</string>
+    <string name="categoryATitle">Category A</string>
+    <string name="playFileNameTitle">Sound File Name</string>
+    <string name="playFileNameSummary">Please set playback file(full path).</string>
+</resources>

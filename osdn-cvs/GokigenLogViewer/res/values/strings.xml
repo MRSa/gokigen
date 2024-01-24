@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blank"> </string>
+    <string name="app_name">LogcatViewer</string>
+    <string name="app_credit">A simple logcat viewer</string>
+    <string name="preference_name">Preferences</string>
+    <string name="save">Save</string>
+    <string name="refresh">Refresh</string>
+    <string name="clear">Clear</string>
+    <string name="about">About</string>
+    <string name="parameterTitle">Preferences</string>
+    <string name="filterTextTitle">Filter String</string>
+    <string name="filterTextSummary">Set a filter string</string>
+    <string name="filterRegExTitle">Filter String (RegEx)</string>
+    <string name="filterRegExSummary">Set a filer as Regular Expression</string>
+    <string name="filterSpecSummary">specify log component and priority</string>
+    <string name="filterSpec">log Filter Spec(default *:v)</string>
+    <string name="information">Information</string>
+    <string name="hintMessageInput">...</string>
+    <string name="confirmYes">OK</string>
+    <string name="confirmNo">Cancel</string>
+    <string name="busyMessage">wait...</string>
+    <string name="busyOutputLogMessage">wait...</string>
+    <string name="logcatOptions">Options</string>
+    <string name="ringBufferType">Ring Buffer</string>
+    <string name="ringBufferType_Summary"></string>
+    <string name="logFormatType">Log Format</string>
+    <string name="logFormatType_Summary"></string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="detail">Detail</string>
+</resources>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/detail_dialog"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <EditText android:id="@+id/detailmessage"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:autoLink="all"
+              android:linksClickable="true"
+              android:textColor="#888"
+              android:hint="@string/blank"
+              />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+    >
+
+<Button
+       android:id="@+id/EMOButton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds = "true"
+       android:scaleType="fitCenter"
+       android:textSize="8pt" 
+       android:text="@string/EMO"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+   />
+<Button
+       android:id="@+id/ResetButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds = "true"
+       android:scaleType="fitCenter"
+       android:textSize="8pt" 
+       android:text="@string/reset"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+   />
+<jp.sourceforge.gokigen.psbf.GokigenSurfaceView
+    android:id="@+id/GraphicViewMain"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_above="@id/EMOButton1"
+    />
+</RelativeLayout>

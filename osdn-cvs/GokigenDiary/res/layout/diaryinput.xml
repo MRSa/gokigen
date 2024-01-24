@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000040"
+    >
+
+<ScrollView
+    android:id="@+id/diaryInputView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:textSize="8pt"
+    android:id="@+id/InformationArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/labelRating1"
+    />
+
+<ImageView
+    android:id="@+id/cameraView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_below="@id/InformationArea"
+    android:layout_alignParentLeft="true"
+    >
+</ImageView>
+
+<RatingBar
+    android:id="@+id/ratingBar1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/cameraView"
+    android:layout_alignParentLeft="true"
+    android:numStars="5"
+    android:stepSize="0.1"
+    android:rating="2.7"
+/>
+
+<ImageView
+    android:id="@+id/emotionIconArea"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_gravity="center_vertical"
+    android:maxHeight="44dp"
+    android:maxWidth="44dp"
+    android:layout_width="36dp" 
+    android:layout_height="36dp" 
+    android:layout_alignBottom="@id/ratingBar1"
+    android:layout_toRightOf="@id/ratingBar1"
+    android:src="@drawable/emo_im_happy"
+    >
+</ImageView>
+
+<EditText
+    android:id="@+id/descriptionInputArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/ratingBar1"
+    android:background="@android:drawable/editbox_background"
+    android:hint="@string/hintMessageInput"
+    android:gravity="top"
+    android:lines="7"
+/>
+
+<TextView  
+    android:textSize="11pt"
+    android:id="@+id/numberUnitArea"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/descriptionInputArea"
+    android:layout_alignParentRight="true"
+    android:text="@string/dummyData"
+    />
+
+<EditText
+    android:id="@+id/numberInputArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_toLeftOf="@id/numberUnitArea"
+    android:layout_below="@id/descriptionInputArea"
+    android:background="@android:drawable/editbox_background"
+    android:textSize="9pt"
+    android:singleLine="true"
+    android:inputType="number"
+    android:hint="@string/hintNumberInput"
+/>
+
+
+<ImageButton
+    android:id="@+id/DataShareButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/numberInputArea"
+    android:layout_alignParentRight="true"
+    android:background="@xml/sharebuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/DataWriteButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/numberInputArea"
+    android:layout_toLeftOf="@id/DataShareButton"
+    android:background="@xml/savebuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+
+<ImageButton
+    android:id="@+id/cameraButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="@xml/camerabuttonstyle"
+    android:layout_below="@id/numberInputArea"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank">
+</ImageButton>
+
+<!-- 
+    android:layout_alignTop="@id/emotionIconArea"
+    android:layout_toRightOf="@id/emotionIconArea"
+
+ -->
+
+<ImageButton
+    android:id="@+id/micButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/cameraButton"
+    android:layout_toRightOf="@id/cameraButton"
+    android:background="@xml/micbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+ </ImageButton>
+
+
+<Button
+    android:id="@+id/setCategoryButton"
+    android:textSize="8pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/micButton"
+    android:layout_toRightOf="@id/micButton"
+    android:layout_toLeftOf="@id/DataWriteButton"
+    android:text="@string/dummyData"
+    android:visibility="invisible">
+</Button>
+
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>

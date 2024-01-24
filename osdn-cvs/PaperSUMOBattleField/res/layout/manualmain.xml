@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:text="@string/MotorASymbol"
+        android:id="@+id/MotorALabel"
+        style="@style/DemoKitTextBase"
+    />
+    <LinearLayout
+        android:id="@+id/MotorAContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+    <TextView
+       android:text="      "
+        android:id="@+id/MotorAValue"
+        style="@style/SensorRawValue"
+    />
+    <SeekBar
+       android:id="@+id/MotorASlider"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:max="255"
+     />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/MotorBSymbol"
+        android:id="@+id/MotorBLabel"
+        style="@style/DemoKitTextBase"
+    />
+    <LinearLayout
+        android:id="@+id/MotorBContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+    <TextView
+        android:id="@+id/MotorBValue"
+        style="@style/SensorRawValue"
+       android:text="      "
+    />
+    <SeekBar
+       android:id="@+id/MotorBSlider"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:max="255"
+     />
+    </LinearLayout>
+
+   <Button
+       android:id="@+id/EMOButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds = "true"
+       android:scaleType="fitCenter"
+       android:textSize="8pt" 
+       android:text="@string/EMO"
+   />
+
+    <TextView
+        android:text="@string/blank"
+        android:id="@+id/BlankLabel"
+        style="@style/DemoKitTextBase"
+    />
+    <TextView
+        android:text="@string/buttonLabelSymbol"
+        android:id="@+id/ButtonLabel"
+        style="@style/DemoKitTextBase"
+    />
+    <LinearLayout
+        android:id="@+id/ButtonAContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonA1"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonA2"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="invisible"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonA3"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="invisible"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonA4"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="invisible"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ButtonBContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonB1"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonB2"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="invisible"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonB3"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="invisible"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/ButtonB4"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+            android:visibility="visible"
+        />
+    </LinearLayout>
+
+<!-- 
+    <LinearLayout
+        android:id="@+id/LEDContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/LED1"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/LED2"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/LED3"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/LED4"
+            style="@style/DemoKitButtonDisplay"
+            android:src="@drawable/indicator_button_capacitive_off_noglow"
+        />
+    </LinearLayout>
+-->
+    <TextView
+        android:text="@string/rawValueLabel"
+        android:id="@+id/tempValue"
+        style="@style/SensorRawValue"
+    />
+    <LinearLayout
+        android:id="@+id/rawValueAContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorA1Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorA2Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorA3Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorAT1Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorAT2Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorAT3Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text=" "
+            android:id="@+id/sensorAT4Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorA4Value"
+            style="@style/SensorRawValue"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rawValueBContainer"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorB1Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorB2Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="xxx "
+            android:id="@+id/sensorB3Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorBT1Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorBT2Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorBT3Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorBT4Value"
+            style="@style/SensorRawValue"
+        />
+        <TextView
+            android:text="  "
+            android:id="@+id/sensorB4Value"
+            style="@style/SensorRawValue"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_credit">紙相撲を盛り上げるアプリです。</string>
+    <string name="app_name">ADK紙相撲</string>
+    <string name="about_gokigen">情報</string>
+    <string name="simulate">強制表示</string>
+    <string name="quit">終了</string>
+	<string name="no_device">基板(ADK)を接続してください。</string>
+	<string name="rawValueLabel">センサ生データ</string>
+	<string name="blank">  </string>
+	<string name="buttonLabelSymbol">スイッチ</string>
+	<string name="ledLabelSymbol">ランプ</string>
+    <string name="EMO">Stop Motor</string>
+    <string name="unlatch">release</string>
+   <string name="reset">継続</string>
+    <string name="MotorASymbol">Motor A</string>
+    <string name="MotorBSymbol">Motor B</string>
+    <string name="preference_name">アプリ設定</string>
+    <string name="normalModeTitle">通常モード</string>
+    <string name="thresholdMoveLowerLimitATitle">駆動指示下限値(A)</string>
+    <string name="thresholdMoveLowerLimitBTitle">駆動指示下限値(B)</string>
+    <string name="thresholdMoveLowerLimitSummary">駆動指示を送出する下限値</string>
+    <string name="thresholdMoveUpperlimitABTitle">駆動指示上限値</string>
+    <string name="thresholdMoveUpperlimitSummary">駆動指示を送出する上限値</string>
+    <string name="movingResolutionTitle">分解能</string>
+    <string name="movingResolutionSummary">駆動指示の分解能</string>
+    <string name="demoModeTitle">デモンストレーションモード</string>
+    <string name="thresholdVolumeOffsetATitle">モータ制御オフセット(A)</string>
+    <string name="thresholdVolumeOffsetBTitle">モータ制御オフセット(B)</string>
+    <string name="thresholdVolumeOffsetSummary">モータ制御指示のオフセット</string>
+    <string name="taikoOnThresholdTitle">太鼓入力認識値</string>
+    <string name="taikoOnThresholdSummary">太鼓が叩かれたと検出する差動値</string>
+    <string name="thresholdVolumeRateTitle">モータ回転倍率</string>
+    <string name="thresholdVolumeRateSummary">(10倍した整数値で指定する)</string>
+    <string name="thresholdVolumeCountTitle">モータ制御コマンド発行間隔</string>
+    <string name="thresholdVolumeCountSummary">何回に１回発行するか</string>
+    <string name="sensor_ThresholdTitle">センサ しきい値</string>
+    <string name="thresholdAFalldownTitle">センサ A 転倒検出 (ms)</string>
+    <string name="thresholdBFalldownTitle">センサ B 転倒検出 (ms)</string>
+   <string name="thresholdFalldownSummary">転倒を検出する時間 (単位:ms)</string>
+    <string name="preferenceTitle">設定項目</string>
+    <string name="sensorA_UpperTitle">センサ A 上限値</string>
+    <string name="sensorB_UpperTitle">センサ B 上限値</string>
+    <string name="sensorA_LowerTitle">センサ A 下限値</string>
+    <string name="sensorB_LowerTitle">センサ B 下限値</string>
+    <string name="thresholdA1UpperTitle">センサ A(1) 上限値</string>
+    <string name="thresholdA1LowerTitle">センサ A(1) 下限値</string>
+    <string name="thresholdA2UpperTitle">センサ A(2) 上限値</string>
+    <string name="thresholdA2LowerTitle">センサ A(2) 下限値</string>
+    <string name="thresholdA3UpperTitle">センサ A(3) 上限値</string>
+    <string name="thresholdA3LowerTitle">センサ A(3) 下限値</string>
+    <string name="thresholdA4UpperTitle">センサ A(4) 上限値</string>
+    <string name="thresholdA4LowerTitle">センサ A(4) 下限値</string>
+
+    <string name="thresholdB1UpperTitle">センサ B(1) 上限値</string>
+    <string name="thresholdB1LowerTitle">センサ B(1) 下限値</string>
+    <string name="thresholdB2UpperTitle">センサ B(2) 上限値</string>
+    <string name="thresholdB2LowerTitle">センサ B(2) 下限値</string>
+    <string name="thresholdB3UpperTitle">センサ B(3) 上限値</string>
+    <string name="thresholdB3LowerTitle">センサ B(3) 下限値</string>
+    <string name="thresholdB4UpperTitle">センサ B(4) 上限値</string>
+    <string name="thresholdB4LowerTitle">センサ B(4) 下限値</string>
+
+    <string name="thresholdUpperSummary">スイッチがONになる上限値</string>
+    <string name="thresholdLowerSummary">スイッチがONになる下限値</string>
+
+    <string name="operationMode_title">操作モード</string>
+    <string name="operationMode_summary">動作を切り替えます。</string>
+
+    <string name="manualModeTitle">マニュアル操作モード</string>
+    <string name="stopMotorWhenLoseTitle">転倒検出時モータ停止</string>
+    <string name="stopMotorWhenLoseSummary">力士の転倒を検出した時にモータを停止します</string>
+
+    <string name="musicFileTitle">音楽ファイル(MP3)</string>
+    <string name="musicFileSummary">デモモードで使用する音楽ファイル名</string>
+    <string name="selectFile">MP3選択...</string>
+</resources>

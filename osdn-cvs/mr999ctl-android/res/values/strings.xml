@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mr999ctl</string>
+    <string name="preference_name">mr999ctl設定</string>
+    <string name="autoPilotSettings">自動制御設定</string>
+    <string name="setAutoPilot">自動制御実行</string>
+    <string name="setAutoPilotSummary">ロボットアームを自動制御します。</string>
+    <string name="autoPilotFile">自動制御用ファイル名</string>
+    <string name="autoPilotFileSummary">自動制御用ファイル名の指定を行います。</string>
+    <string name="inputAutoPilotFileName">自動制御用ファイル名</string>
+    <string name="info">MR-999 CONTROLLER</string>
+    <string name= "parameterSettings">補正データ設定</string>
+    <string name= "parameter01">パラメータ１</string>
+    <string name= "parameter01Summary">Grip Open補正用</string>
+    <string name= "parameter02">パラメータ２</string>
+    <string name= "parameter02Summary">Grip Close補正用</string>
+    <string name= "parameter03">パラメータ３</string>
+    <string name= "parameter03Summary">Wrist Left補正用</string>
+    <string name= "parameter04">パラメータ４</string>
+    <string name= "parameter04Summary">Wrist Right補正用</string>
+    <string name= "parameter05">パラメータ５</string>
+    <string name= "parameter05Summary">Elbow Up補正用</string>
+    <string name= "parameter06">パラメータ６</string>
+    <string name= "parameter06Summary">Elbow Down補正用</string>
+    <string name= "parameter07">パラメータ７</string>
+    <string name= "parameter07Summary">Shoulder Up補正用</string>
+    <string name= "parameter08">パラメータ８</string>
+    <string name= "parameter08Summary">Shoulder Down補正用</string>
+    <string name= "parameter09">パラメータ９</string>
+    <string name= "parameter09Summary">Base Left補正用</string>
+    <string name= "parameter10">パラメータ１０</string>
+    <string name= "parameter10Summary">Base Right補正用</string>    
+</resources>

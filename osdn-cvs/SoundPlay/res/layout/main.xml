@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+    android:id="@+id/gokigenSoundPlayView"
+    >
+
+<TextView  
+    android:id="@+id/SoundInfo"
+    android:textSize="4pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    />
+
+<Button
+    android:id="@+id/PlayButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/circlebuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible"
+    >
+</Button>
+
+<ImageButton
+    android:id="@+id/PauseButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/PlayButton"
+    android:layout_alignBottom="@id/PlayButton"
+    android:background="@xml/circlebuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible"
+    >
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/StopButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/PauseButton"
+    android:layout_alignBottom="@id/PauseButton"
+    android:background="@xml/circlebuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible"
+    >
+</ImageButton>
+
+<jp.sourceforge.gokigen.sound.play.GokigenSurfaceView
+    android:id="@+id/GraphicView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/SoundInfo"
+    android:layout_above="@id/PlayButton"
+    />
+
+</RelativeLayout>

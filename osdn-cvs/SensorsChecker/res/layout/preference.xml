@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+        <CheckBoxPreference
+            android:key="useNetworkGps"
+            android:title="@string/networkGpsTitle"
+            android:summary="@string/networkGpsSummary"
+        />
+        <CheckBoxPreference
+            android:key="isRecord"
+            android:title="@string/isRecordTitle"
+            android:summary="@string/isRecordSummary"
+        />
+        <CheckBoxPreference
+            android:key="isAppend"
+            android:title="@string/isAppendTitle"
+            android:summary="@string/isAppendSummary"
+        />
+        <EditTextPreference
+            android:key="fileNameValue"
+            android:title="@string/recordFileNameTitle"
+            android:summary="@string/recordFileNameSummary"
+            android:dialogTitle="@string/recordFileNameTitle"
+        />
+        <CheckBoxPreference
+            android:key="isRecordLocation"
+            android:title="@string/isRecordLocationTitle"
+            android:summary="@string/isRecordLocationSummary"
+        />
+        <CheckBoxPreference
+            android:key="isAppendLocation"
+            android:title="@string/isAppendLocationTitle"
+            android:summary="@string/isAppendLocationSummary"
+        />
+        <EditTextPreference
+            android:key="locationFileNameValue"
+            android:title="@string/recordLocationFileNameTitle"
+            android:summary="@string/recordLocationFileNameSummary"
+            android:dialogTitle="@string/recordLocationFileNameTitle"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

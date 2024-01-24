@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchForm"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:id="@+id/SearchInformationArea"
+    android:textSize="7pt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    />
+
+<ImageButton
+    android:id="@+id/doSearchButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/SearchInformationArea"
+    android:layout_alignParentRight="true"
+    android:background="@xml/searchbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+ </ImageButton>
+
+<ImageButton
+    android:id="@+id/searchNextMonth"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/rarrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/searchPreviousMonth"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@id/searchNextMonth"
+    android:layout_alignTop="@id/searchNextMonth"
+    android:background="@xml/larrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<ListView android:id="@+id/searchResultView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/doSearchButton"
+    android:layout_above="@id/searchNextMonth"
+    >
+</ListView>
+
+<EditText
+    android:id="@+id/searchKeywordArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/SearchInformationArea"
+    android:layout_above="@id/searchResultView"
+    android:layout_toLeftOf="@id/doSearchButton"
+    android:background="@android:drawable/editbox_background"
+    android:textSize="8pt"
+    android:singleLine="true"
+    android:hint="@string/hintSearchKeyword"
+/>
+
+<ImageButton
+    android:id="@+id/inputVoiceButton"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/micbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+ </ImageButton>
+
+<TextView  
+    android:id="@+id/SearchConditionArea"
+    android:textSize="6pt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/inputVoiceButton"
+    android:layout_alignBottom="@id/searchPreviousMonth"
+    android:layout_toLeftOf="@id/searchPreviousMonth"
+    android:text="@string/blank"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<ImageView 
+    android:id="@+id/ResultBackView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:background="@color/mybackground_color_blue"
+    android:contentDescription="@string/blank"
+    />
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mybackground_color"
+    android:id="@+id/OkakenResultView"
+    >
+
+    <View android:id="@+id/fakeView"
+       android:layout_width="0dp"
+       android:layout_height="0dp" 
+       android:layout_centerInParent="true"
+       />
+<!--
+<TextView  
+    android:id="@+id/ResultInformation"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    android:visibility="gone"
+    />
+
+<Button
+    android:id="@+id/ResultDetailButton"
+    android:textSize="7pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="@string/blank"
+    android:visibility="gone"
+    android:contentDescription="@string/blank"
+    >
+</Button>
+-->
+
+<ListView android:id="@+id/ResultListView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_above="@id/fakeView"
+    />
+
+<jp.sfjp.gokigen.okaken.GokigenSurfaceView
+    android:id="@+id/ResultView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/fakeView"
+    />
+
+</RelativeLayout>
+
+</merge>

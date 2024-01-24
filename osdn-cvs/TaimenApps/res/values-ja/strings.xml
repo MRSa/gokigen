@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blank"></string>
+    <string name="app_credit">対面で使えるアプリを目指しています。</string>
+    <string name="app_name">対面</string>
+    <string name="about_gokigen">情報</string>
+    <string name="info_default">(Gokigen)</string>
+    <string name="preference_name">設定</string>
+    <string name="parameterTitle">設定項目</string>
+    <string name="useMultiTouchTitle">マルチタッチ</string>
+    <string name="useMultiTouchSummary">チェックを入れると、マルチタッチを受け付けます。</string>
+    <string name="stringValueTitle">string</string>
+    <string name="stringValueSummary">string</string>
+    <string name="stringValueInput">string</string>
+    <string name="confirmYes">OK</string>
+    <string name="confirmNo">Cancel</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/gokigenGraphView"
+    >
+
+<ImageButton
+    android:id="@+id/changePrevious"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/larrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<TextView  
+    android:id="@+id/GokigenInfo"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/changePrevious"
+    android:layout_toRightOf="@id/changePrevious"
+    android:text="@string/blank"
+    />
+
+<ImageButton
+    android:id="@+id/changeNext"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/GokigenInfo"
+    android:layout_alignTop="@id/changePrevious"
+    android:background="@xml/rarrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+
+<ImageButton
+    android:id="@+id/changeGraphStyleButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:background="@xml/graphbuttonstyle"
+    android:text="@string/blank"
+    >
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/changeBargraphStyleButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@id/changeGraphStyleButton"
+    android:background="@xml/bargraphbuttonstyle"
+    android:text="@string/blank"
+    >
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/changeLinegraphStyleButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@id/changeBargraphStyleButton"
+    android:background="@xml/linegraphbuttonstyle"
+    android:text="@string/blank"
+    >
+</ImageButton>
+<ImageButton
+    android:id="@+id/changeDataButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@id/changeLinegraphStyleButton"
+    android:background="@xml/monthbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="gone"
+    >
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/MyButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/circlebuttonstyle"
+    android:text="@string/blank"
+    android:visibility="gone"
+    >
+</ImageButton>
+
+<jp.sourceforge.gokigen.diary.GokigenSurfaceView
+    android:id="@+id/GraphicView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/changeGraphStyleButton"
+    android:layout_above="@id/MyButton"
+    />
+
+</RelativeLayout>

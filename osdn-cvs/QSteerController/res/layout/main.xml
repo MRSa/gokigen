@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<ImageView 
+    android:id="@+id/BackgroundView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+   android:background="#000040"
+    />
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mybackground_color"
+    android:id="@+id/gokigenQSteerView"
+    >
+
+<TextView  
+    android:id="@+id/Information"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    android:visibility="gone"
+    />
+
+<ImageView
+    android:id="@+id/SpacerBottom"
+    android:layout_width="12dp" 
+    android:layout_height="12dp" 
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:visibility="gone"
+    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/Information"
+    android:layout_above="@id/SpacerBottom"
+    android:layout_alignParentLeft="true"
+    >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="320px"
+        android:layout_height="240px"
+    >
+        <jp.sourceforge.gokigen.qsteer.controller.CameraViewer
+            android:id="@+id/CameraView"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+        />
+        <jp.sourceforge.gokigen.qsteer.controller.GokigenSurfaceView
+            android:id="@+id/OverlayView"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+        />
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="320px"
+        android:layout_height="240px"
+    >
+        <jp.sourceforge.gokigen.qsteer.controller.GokigenSurfaceView
+            android:id="@+id/GraphicView"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+        />
+    </FrameLayout>
+</LinearLayout>
+</RelativeLayout>
+</merge>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+    >
+
+<TextView  
+    android:id="@+id/InfoArea"
+    android:textSize = "7pt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    />
+
+
+<ImageButton
+    android:id="@+id/MyLocationButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/locationbuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/ZoomInButton"
+    android:textSize="10pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:background="@xml/plusbuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/ZoomOutButton"
+    android:textSize="10pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/ZoomInButton"
+    android:layout_toLeftOf="@id/ZoomInButton"
+    android:background="@xml/minusbuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+<!---->
+<com.google.android.maps.MapView
+    android:id="@+id/MapAreaView"
+    android:layout_below="@id/InfoArea"
+    android:layout_above="@id/MyLocationButton"
+    android:layout_alignParentLeft="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:enabled="true"
+    android:clickable="true"
+    android:apiKey="0ypv5H1B5jIa3GLpV_2OnTBFQyBmLMPgse5cfRQ"
+/>
+<!-- android:apiKey="0ypv5H1B5jIa3GLpV_2OnTBFQyBmLMPgse5cfRQ" -->
+<!-- android:apiKey="0ypv5H1B5jIapdTCFuCKQ2Ztad07XBZxAmkYp8g" (debug)-->
+
+</RelativeLayout>

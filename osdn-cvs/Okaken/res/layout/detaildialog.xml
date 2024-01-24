@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/detail_dialog"
+    android:background="@color/color_black"
+    >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_black"    
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_black"
+    >
+
+<ImageView
+    android:id="@+id/answerStatusIcon"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:maxHeight="32dp"
+    android:maxWidth="32dp"
+    android:layout_width="24dp" 
+    android:layout_height="24dp"
+    android:adjustViewBounds = "true"
+    android:scaleType="fitCenter"
+    android:text="@string/blank"
+    android:src="@drawable/good"
+    android:visibility="visible">
+</ImageView>
+<TextView
+    android:id="@+id/dummy_answerStringArea"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/answerStatusIcon"
+    android:layout_toRightOf="@id/answerStatusIcon"
+    android:text="@string/space"
+    android:textSize="5pt"
+    >
+</TextView>
+
+<TextView
+    android:id="@+id/answerStringArea"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/answerStatusIcon"
+    android:layout_toRightOf="@id/dummy_answerStringArea"
+    android:text="@string/blank"
+    android:textSize="9pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/answerTimeArea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/answerStringArea"
+    android:layout_alignLeft="@id/answerStringArea"
+    android:text="@string/blank"
+    android:textSize="5pt"
+    >
+</TextView>
+<TextView
+    android:id="@+id/answerDetailArea"
+    android:layout_alignParentLeft="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@id/answerTimeArea"
+    android:autoLink="all"
+    android:linksClickable="true"
+    android:text="@string/blank"
+    android:textSize="8pt"
+    />
+<TextView
+    android:id="@+id/answerUrlArea"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/answerDetailArea"
+    android:autoLink="all"
+    android:linksClickable="true"
+    android:text="@string/blank"
+    android:textSize="6pt"
+    />
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="useAA_entries">
+        <item>nothing</item>
+        <item>Normal</item>
+        <item>Japanese</item>
+    </string-array>
+    <string-array name="useAA_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="useLocation_entries">
+        <item>nothing</item>
+        <item>Text data</item>
+        <item>Link(Google Map)</item>
+    </string-array>
+    <string-array name="useLocation_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

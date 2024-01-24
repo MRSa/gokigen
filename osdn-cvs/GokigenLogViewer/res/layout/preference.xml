@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+       <EditTextPreference
+            android:key="filterText"
+            android:title="@string/filterTextTitle"
+            android:summary="@string/filterTextSummary"
+            android:dialogTitle="@string/filterTextTitle"
+            android:defaultValue=""
+        />
+       <EditTextPreference
+            android:key="filterRegEx"
+            android:title="@string/filterRegExTitle"
+            android:summary="@string/filterRegExSummary"
+            android:dialogTitle="@string/filterRegExTitle"
+            android:defaultValue=""
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/logcatOptions">
+        <ListPreference
+            android:key="useRingBuffer"
+            android:title="@string/ringBufferType"
+            android:summary="@string/ringBufferType_Summary"
+            android:dialogTitle="@string/ringBufferType"
+            android:entries="@array/useRingBuffer_entries"
+            android:entryValues="@array/useRingBuffer_entryvalues" />
+        <ListPreference
+            android:key="logFormat"
+            android:title="@string/logFormatType"
+            android:summary="@string/logFormatType_Summary"
+            android:dialogTitle="@string/logFormatType"
+            android:entries="@array/logFormat_entries"
+            android:entryValues="@array/logFormat_entryvalues" />
+        <EditTextPreference
+            android:key="filterSpec"
+            android:title="@string/filterSpec"
+            android:summary="@string/filterSpecSummary"
+            android:dialogTitle="@string/filterSpec"
+            android:defaultValue="*:v"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

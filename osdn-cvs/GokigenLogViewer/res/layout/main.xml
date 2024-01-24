@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:id="@+id/TopInformationArea"
+    android:textSize="10dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/blank"
+    />
+
+<Button
+    android:id="@+id/refreshButton"
+    android:textSize="16dp"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="@string/refresh"
+    android:visibility="visible">
+</Button>
+
+<ListView android:id="@+id/messageListView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/TopInformationArea"
+    android:layout_above="@id/refreshButton"
+    >
+</ListView>    
+    
+<TextView  
+    android:id="@+id/BottomInformationArea"
+    android:textSize="12dp"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:text="@string/blank"
+    />
+
+</RelativeLayout>

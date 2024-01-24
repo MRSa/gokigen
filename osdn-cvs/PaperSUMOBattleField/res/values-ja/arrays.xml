@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operationMode_entries">
+        <item>通常</item>
+        <item>デモンストレーション</item>
+        <item>マニュアル操作</item>
+    </string-array>
+    <string-array name="operationMode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

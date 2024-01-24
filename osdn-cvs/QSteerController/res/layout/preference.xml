@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+        <CheckBoxPreference
+            android:key="AutoPilot"
+            android:title="@string/autoPilot"
+            android:summary="@string/autoPilotSummary"
+        />
+        <CheckBoxPreference
+            android:key="ContinueTurn"
+            android:title="@string/continueTurnTitle"
+            android:summary="@string/continueTurnSummary"
+        />
+        <CheckBoxPreference
+            android:key="DrawHistory"
+            android:title="@string/drawHistory"
+            android:summary="@string/drawHistorySummary"
+        />
+        </PreferenceCategory>
+</PreferenceScreen>

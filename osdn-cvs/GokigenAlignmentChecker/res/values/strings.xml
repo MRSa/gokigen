@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shisei Checker</string>
+    <string name="app_credit">A Body Alignment Checker</string>
+    <string name="about">About</string>
+    <string name="captureScreen_name">Capture</string>
+    <string name="preference_name">Preferences</string>
+    <string name="undo_name">Undo</string>
+    <string name="reset_name">Reset</string>
+    <string name="checkin_name">Check!</string>
+    <string name="parameterTitle">preferences</string>
+     <string name="information">Information</string>
+    <string name="btnLabel">Button</string>
+    <string name="blank"></string>
+    <string name="dataLoading">Loading...</string>
+    <string name="dataWriting">Writing...</string>
+    <string name="today">Today</string>
+    <string name="sundayLabel">Sun</string>
+    <string name="mondayLabel">Mo</string>
+    <string name="tuesdayLabel">Tue</string>
+    <string name="wednesdayLabel">We</string>
+    <string name="thursdayLabel">Thu</string>
+    <string name="fridayLabel">Fri</string>
+    <string name="saturdayLabel">Sat</string>
+    <string name="pleaseCapture"></string>
+    <string name="capturing">Capturing...</string>
+    <string name="captured">Capture done!</string>
+    <string name="captureInfo">Tap screen to capture </string>
+    <string name="scaleShape_title">Shape View</string>
+    <string name="scaleShape_summary"></string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <PreferenceCategory android:title="@string/parameterTitle">
+        <CheckBoxPreference
+            android:key="offlineMode"
+            android:title="@string/offlineTitle"
+            android:summary="@string/offlineSummary"
+        />
+        <CheckBoxPreference
+            android:key="listPreviewContent"
+            android:title="@string/listPreviewTitle"
+            android:summary="@string/listPreviewSummary"
+        />
+        <EditTextPreference
+            android:key="amountUnit"
+            android:title="@string/amountUnit"
+            android:summary="@string/amountUnitSummary"
+            android:dialogTitle="@string/amountUnit"
+        />
+        <CheckBoxPreference
+            android:key="secretMode"
+            android:title="@string/secretModeTitle"
+            android:summary="@string/secretModeSummary"
+        />
+        <EditTextPreference
+            android:key="passPhrase"
+            android:title="@string/passPhraseTitle"
+            android:summary="@string/passPhraseSummary"
+            android:dialogTitle="@string/passPhraseTitle"
+            android:password="true"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/LocationParameterTitle">
+        <CheckBoxPreference
+            android:key="useNetworkGps"
+            android:title="@string/networkGpsTitle"
+            android:summary="@string/networkGpsSummary"
+            android:defaultValue="true"
+        />
+        <EditTextPreference
+            android:key="timeoutDuration"
+            android:title="@string/timeoutValue"
+            android:summary="@string/timeoutValueSummary"
+            android:dialogTitle="@string/timeoutValue"
+            android:inputType="number"
+            android:defaultValue="10"
+        />
+        <EditTextPreference
+            android:key="myLocale"
+            android:title="@string/myLocale"
+            android:summary="@string/myLocaleSummary"
+            android:dialogTitle="@string/myLocale"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ShareParameterTitle">
+        <ListPreference
+            android:key="useAAtype"
+            android:title="@string/useAA_title"
+            android:summary="@string/useAA_summary"
+            android:dialogTitle="@string/useAA_title"
+            android:entries="@array/useAA_entries"
+            android:entryValues="@array/useAA_entryvalues" />
+        <ListPreference
+            android:key="useLocationtype"
+            android:title="@string/useLocation_title"
+            android:summary="@string/useLocation_summary"
+            android:dialogTitle="@string/useLocation_title"
+            android:entries="@array/useLocation_entries"
+            android:entryValues="@array/useLocation_entryvalues" />
+    </PreferenceCategory>
+</PreferenceScreen>

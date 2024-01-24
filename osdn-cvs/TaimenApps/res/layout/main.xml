@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+    android:id="@+id/gokigenMeMoMaView"
+    >
+
+<TextView  
+    android:id="@+id/MeMoMaInfo"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    android:visibility="gone"
+    />
+
+<ImageButton
+    android:id="@+id/SelectButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/circlebuttonstyle"
+    android:text="@string/blank"
+    android:visibility="gone"
+    >
+</ImageButton>
+
+<jp.sourceforge.gokigen.taimen.GokigenSurfaceView
+    android:id="@+id/GraphicView"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/MeMoMaInfo"
+    android:layout_above="@id/SelectButton"
+    />
+
+</RelativeLayout>

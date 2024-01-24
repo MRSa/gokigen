@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:id="@+id/InformationArea"
+    android:textSize="7pt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:text="@string/blank"
+    />
+
+<ImageButton
+    android:id="@+id/OpenInput"
+    android:textSize="9pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/writebuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+
+<ImageButton
+    android:id="@+id/movePreviousDay"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_below="@id/InformationArea"
+    android:layout_alignParentLeft="true"
+    android:background="@xml/larrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<Button
+    android:id="@+id/dateSelectionButton"
+    android:textSize="8pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/movePreviousDay"
+    android:layout_alignTop="@id/movePreviousDay"
+    android:text="@string/blank">
+</Button>
+
+<ImageButton
+    android:id="@+id/moveNextDay"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/dateSelectionButton"
+    android:layout_alignTop="@id/movePreviousDay"
+    android:background="@xml/rarrowbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible">
+</ImageButton>
+
+<Button
+    android:id="@+id/categoryButton"
+    android:textSize="8pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/InformationArea"
+    android:layout_toRightOf="@id/moveNextDay"
+    android:text="@string/dummyData"
+    android:visibility="invisible">
+</Button>
+
+
+
+<ImageButton
+    android:id="@+id/showMap"
+    android:textSize="9pt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/InformationArea"
+    android:layout_alignRight="@id/InformationArea"
+    android:background="@xml/mapbuttonstyle"
+    android:text="@string/blank">
+</ImageButton>
+
+<ListView android:id="@+id/messageListView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/dateSelectionButton"
+    android:layout_above="@id/OpenInput"
+    >
+</ListView>
+
+<TextView  
+    android:id="@+id/NumberArea"
+    android:textSize="7pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true"
+    android:layout_toLeftOf="@id/OpenInput"
+    android:text="@string/blank">
+</TextView>
+
+<ImageButton
+    android:id="@+id/dataSearchButton"
+    android:textSize="9pt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:background="@xml/searchbuttonstyle"
+    android:text="@string/blank"
+    android:visibility="visible"
+    >
+</ImageButton>
+
+<ImageButton
+    android:id="@+id/showGokigenGraphButoon"
+    android:textSize="9pt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/dataSearchButton"
+    android:layout_toRightOf="@id/dataSearchButton"
+    android:background="@xml/smilybuttonstyle"
+    android:text="@string/blank"
+    android:visibility="gone"
+    >
+</ImageButton>
+
+<Button
+    android:id="@+id/todayButton"
+    android:textSize="6pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_alignTop="@id/showGokigenGraphButoon"
+    android:layout_toRightOf="@id/showGokigenGraphButoon"
+    android:text="@string/today"
+    android:visibility="gone"
+    >
+</Button>
+
+</RelativeLayout>

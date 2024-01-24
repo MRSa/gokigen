@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QSteerController</string>
+    <string name="app_credit">A QSteer/ChoroQ Hybrid Controller</string>
+    <string name="blank"></string>
+    <string name="about_gokigen">About</string>
+    <string name="no_device">Please connect a ADK board.</string>
+    <string name="preference_name">Preferences</string>
+    <string name="parameterTitle">Preferences</string>
+    <string name="autoPilot">Auto Pilot Mode</string>
+    <string name="autoPilotSummary"></string>
+    <string name="continueTurnTitle">Publish Only Turn Command</string>
+    <string name="continueTurnSummary"></string>
+    <string name="drawHistory">Draw history</string>
+    <string name="drawHistorySummary"></string>
+</resources>

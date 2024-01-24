@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="useRingBuffer_entries">
+        <item>main</item>
+        <item>radio</item>
+        <item>events</item>
+   </string-array>
+    <string-array name="useRingBuffer_entryvalues">
+        <item>main</item>
+        <item>radio</item>
+        <item>events</item>
+    </string-array>
+    <string-array name="logFormat_entries">
+        <item>brief</item>
+        <item>process</item>
+        <item>tag</item>
+        <item>thread</item>
+        <item>raw</item>
+        <item>time</item>
+        <item>threadtime</item>
+        <item>long</item>
+   </string-array>
+    <string-array name="logFormat_entryvalues">
+        <item>brief</item>
+        <item>process</item>
+        <item>tag</item>
+        <item>thread</item>
+        <item>raw</item>
+        <item>time</item>
+        <item>threadtime</item>
+        <item>long</item>
+    </string-array>
+</resources>

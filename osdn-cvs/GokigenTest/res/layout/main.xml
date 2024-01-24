@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView  
+    android:id="@+id/infoArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/blank">
+</TextView>
+
+<EditText
+    android:id="@+id/inputArea"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:background="@android:drawable/editbox_background"
+    android:hint="@string/blank"
+    android:gravity="top">
+</EditText>
+
+<Button
+    android:id="@+id/pushButton"
+    android:textSize="9pt"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/blank">
+</Button>
+
+</LinearLayout>

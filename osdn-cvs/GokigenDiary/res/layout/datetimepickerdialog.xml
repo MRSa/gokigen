@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dateTimePicker"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004000"
+>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <DatePicker
+        android:id="@+id/datePickerInput"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textSize="7pt"
+        android:text="@string/blank"
+        android:layout_alignParentLeft="true"
+    >
+    </DatePicker>
+    <TimePicker
+        android:id="@+id/timePickerInput"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textSize="7pt"
+        android:text="@string/blank"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/datePickerInput"
+    >
+    </TimePicker>
+    <CheckBox
+        android:id="@+id/useCurrentDateTime"
+        android:textSize="6pt"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/setCurrentDateTime"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/timePickerInput"
+    >
+    </CheckBox>
+
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>
