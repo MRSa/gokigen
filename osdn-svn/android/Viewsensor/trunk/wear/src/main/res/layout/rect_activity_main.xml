@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear_square">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:background="@drawable/yamabg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ImageView>
+    <jp.sourceforge.gokigen.viewsensor.GokigenSurfaceView
+        android:id="@+id/rect_canvas_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        />
+
+<!--
+    <android.support.wearable.view.WearableListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.wearable.view.WearableListView>
+-->
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">prpr</string>
+    <string name="blank"> </string>
+    <string name="title_no_device_connected">No wearable device is currently connected.</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="add_picture">ADD</string>
+    <string name="reset_pictures">RESET</string>
+    <string name="description_prpr">prpr configuration</string>
+    <string name="description_add">Transfers a picture, please select one.</string>
+    <string name="description_reset">Clear all transferred pictures. (reset prpr)</string>
+    <string name="description_howto">*** To enable operation(s), please select another watch face once.(see below)</string>
+    <string name="title_confirm_reset">Reset Confirmation</string>
+    <string name="message_confirm_reset">All transferred pictures will be deleted.</string>
+    <string name="message_sent_reset">Sent clear command.</string>
+    <string name="message_sent_picture">Sent a picture.</string>
+</resources>

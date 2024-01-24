@@ -1,0 +1,10 @@
+--- drivers/video/Kconfig.orig	2009-10-23 03:27:18.000000000 +0900
++++ drivers/video/Kconfig	2009-12-17 21:54:05.000000000 +0900
+@@ -2133,6 +2133,7 @@
+ 
+ source "drivers/video/backlight/Kconfig"
+ source "drivers/video/display/Kconfig"
++source "drivers/video/udlfb/Kconfig"
+ 
+ if VT
+ 	source "drivers/video/console/Kconfig"

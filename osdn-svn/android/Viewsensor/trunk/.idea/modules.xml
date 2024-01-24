@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/trunk.iml" filepath="$PROJECT_DIR$/trunk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mobile/trunk.mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/mobile/trunk.mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wear/trunk.wear.iml" filepath="$PROJECT_DIR$/.idea/modules/wear/trunk.wear.iml" />
+    </modules>
+  </component>
+</project>

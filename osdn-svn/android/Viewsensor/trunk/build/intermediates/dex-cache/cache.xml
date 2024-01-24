@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="40a6fbd08fdbb71c74751916201e5fd8694e16ca">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.google.android.support-wearable-1.4.0_7a4c3f9eeab539695cd2f47322c97605445e2ecf.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.0.1_19be34564646dbb4d65d6bb694e8ceb46d02c9b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-9.2.0_4ff1b5fdba82114b787c18265f6fa609cf9d3b79.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="08cdd337d1d9247eb915f0ab365624dd7966e7fa">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-wearable-9.2.0_9c718d591d6b7445c597ffb3c3968cf30fb96404.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-9.2.0_82b7af11b870a6b4a5e241c85a61cc7e06923a6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="30489a97b06cc3945bdbcc1770089af9e3b3b64d">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-9.2.0_770b8840af536199a86ba69ddbb0ff5eb24282bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\internal_impl-23.0.1_bbeb9061db13002d1fb31a9048edf4a3a715e281.jar" />
+    </item>
+    <item
+        jar="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.0.1_977c75bdb5c8d2007f77272777505dee8c859264.jar" />
+    </item>
+    <item
+        jar="C:\APL\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\MRSa\AndroidStudioProjects\Viewsensor\trunk\wear\build\intermediates\pre-dexed\release\support-annotations-23.0.1_5684c28b37a80e5c5db997af66534be48dcb1e50.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,11 @@
+--- usr/bin/gpu-install	2009-09-23 16:34:29.000000000 +0900
++++ /usr/local/bin/gpu-install	2010-03-11 21:25:07.000000000 +0900
+@@ -5,7 +5,7 @@
+ # remove ---- remove gpu kernel module
+ 
+ if [ "$1" = "install" ]; then
+-    modprobe gpu_z430
++    modprobe --force gpu_z430
+     gpu_maj=`grep "gsl_kmod" /proc/devices | cut -b1,2,3`
+     mknod /dev/gsl_kmod c "$gpu_maj" 0
+ fi

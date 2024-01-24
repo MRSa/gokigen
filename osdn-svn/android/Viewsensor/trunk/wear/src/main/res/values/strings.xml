@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Viewsensor</string>
+    <string name="lbl_calib">Calibration</string>
+    <string name="set_altitude_prefix">Set altitude to </string>
+    <string name="set_altitude_suffix">m.</string>
+    <string name="reset_altitude">Clear an altitude offset.</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources>

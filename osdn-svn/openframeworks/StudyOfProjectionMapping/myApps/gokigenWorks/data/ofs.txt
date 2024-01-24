@@ -1,0 +1,1 @@
+for openframeworks v0073 (vs2010)

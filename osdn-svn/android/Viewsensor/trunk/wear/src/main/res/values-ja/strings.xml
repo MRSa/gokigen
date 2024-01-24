@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Viewsensor</string>
+    <string name="lbl_calib">高度補正</string>
+    <string name="set_altitude_prefix">高度設定 </string>
+    <string name="set_altitude_suffix">m</string>
+    <string name="reset_altitude">高度補正解除</string>
+    <string name="hello_round">ハロー 丸盤面 World!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources>

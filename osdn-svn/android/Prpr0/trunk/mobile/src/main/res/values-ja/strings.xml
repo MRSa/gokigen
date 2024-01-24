@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">prpr</string>
+    <string name="title_no_device_connected">デバイスが接続されていません。</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="add_picture">画像追加</string>
+    <string name="reset_pictures">全て消去</string>
+    <string name="description_prpr">prprの設定</string>
+    <string name="description_add">表示する画像を転送します。</string>
+    <string name="description_reset">転送済の画像を全て消去し、初期状態に戻します。</string>
+    <string name="description_howto">※ 操作を有効にするには、一度他のウォッチフェースに切り替えてください。（下図参照）</string>
+    <string name="title_confirm_reset">確認：全消去</string>
+    <string name="message_confirm_reset">転送済の画像を全て消去します。</string>
+    <string name="message_sent_reset">転送済の画像の全消去を指示しました。</string>
+    <string name="message_sent_picture">画像の送信を開始しました。</string>
+</resources>
