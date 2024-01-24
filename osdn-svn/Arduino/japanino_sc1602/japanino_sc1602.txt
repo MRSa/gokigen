@@ -1,0 +1,49 @@
+<<< Japanino(Arduino)を使ったLCD(SC1602)制御 >>>
+
+■機能
+
+・PCからのシリアル通信でメッセージを受信し、Japanino(Arduino)に接続したLCDへ表示する。
+  - '\' を受信するとそれまでの文字列を表示する。
+  - '!' を受信すると改行する。
+
+  (例)  PCから 1234!5678\ を送ると、上の行に 1234、下の行に 5678 を表示する。
+        PCから !\ を送ると、表示をクリアする。
+
+
+   ※ Arduino IDE標準のLiquidCrystalライブラリを使用している。
+
+   ※ 動作確認用に、ボード上のLED(D13)を定期的に点滅させる。
+
+
+■LCDモジュール(SC1602)について
+
+・LCDキャラクタディスプレイモジュール (秋月電子通商)
+  → http://akizukidenshi.com/catalog/g/gP-00040/
+
+
+■Japaninoとの結線
+
+[Japanino] == [SC1602]
+  +5V     == (1)VDD
+  GND     == (2)Vss
+  D10     == (3)Vo
+  D11     == (4)RS
+  GND     == (5)Read/Write
+  D9      == (6)Enable
+ (未結線) == (7)DB0
+ (未結線) == (8)DB1
+ (未結線) == (9)DB2
+ (未結線) == (10)DB3
+ D4       == (11)DB4
+ D5       == (12)DB5
+ D6       == (13)DB6
+ D7       == (14)DB7
+
+
+■参考サイト
+
+・武蔵野電波のプロトタイパーズ・第16回「液晶ゲームを作ってみよう」
+  → http://pc.watch.impress.co.jp/docs/column/musashino_proto/20091001_318437.html
+
+
+以上

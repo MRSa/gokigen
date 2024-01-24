@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_camera">
+
+        <ListPreference
+            android:title="@string/pref_live_view_quality"
+            android:entryValues="@array/live_view_quality_value"
+            android:entries="@array/live_view_quality"
+            android:key="live_view_quality"
+            android:defaultValue="QVGA"/>
+
+        <CheckBoxPreference
+            android:key="touch_shutter"
+            android:title="@string/pref_touch_shutter" />
+
+        <CheckBoxPreference
+            android:key="show_preview"
+            android:title="@string/pref_show_preview" />
+
+        <PreferenceScreen
+            android:key="power_off"
+            android:title="@string/pref_power_off" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_info">
+
+        <PreferenceScreen
+            android:key="focal_length"
+            android:title="@string/pref_focal_length"
+            android:selectable="false" />
+
+        <PreferenceScreen
+            android:key="lens_status"
+            android:title="@string/pref_lens_status"
+            android:selectable="false" />
+
+        <PreferenceScreen
+            android:key="media_status"
+            android:title="@string/pref_media_status"
+            android:selectable="false" />
+
+        <PreferenceScreen
+            android:key="camera_version"
+            android:title="@string/pref_camera_version"
+            android:selectable="false" />
+
+        <PreferenceScreen
+        android:key="camerakit_version"
+        android:title="@string/pref_camerakit_version"
+        android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

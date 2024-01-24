@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="live_view_quality">
+        <item >QVGA (320x240)</item>
+        <item >VGA (640x480)</item>
+        <item >SVGA (800x600)</item>
+        <item >XGA (1024x768)</item>
+    </string-array>
+
+    <string-array name="live_view_quality_value">
+        <item >QVGA</item>
+        <item >VGA</item>
+        <item >SVGA</item>
+        <item >XGA</item>
+    </string-array>
+
+    <string-array name="camera_property">
+        <item>TAKEMODE</item>
+        <item>TAKE_DRIVE</item>
+        <item>APERTURE</item>
+        <item>SHUTTER</item>
+        <item>EXPREV</item>
+        <item>ISO</item>
+        <item>WB</item>
+        <item>BATTERY_LEVEL</item>
+    </string-array>
+
+    <string-array name="sound_volume_level">
+        <item >OFF</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </string-array>
+
+    <string-array name="sound_volume_level_value">
+        <item >OFF</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </string-array>
+
+    <string-array name="face_scan">
+        <item >OFF</item>
+        <item >ON</item>
+        <item >NEAR</item>
+    </string-array>
+
+    <string-array name="face_scan_value">
+        <item >FACE_SCAN_OFF</item>
+        <item >FACE_SCAN_ON</item>
+        <item >FACE_SCAN_NEAR</item>
+    </string-array>
+
+    <string-array name="image_size">
+        <item>4608x3456</item>
+        <item>3200x2400</item>
+        <item>2560x1920</item>
+        <item>1920x1440</item>
+        <item>1600x1200</item>
+        <item>1280x960</item>
+        <item>1024x768</item>
+        <item>640x480</item>
+    </string-array>
+
+    <string-array name="image_size_value">
+        <item>4608x3456</item>
+        <item>3200x2400</item>
+        <item>2560x1920</item>
+        <item>1920x1440</item>
+        <item>1600x1200</item>
+        <item>1280x960</item>
+        <item>1024x768</item>
+        <item>640x480</item>
+    </string-array>
+
+    <string-array name="compressibility_ratio">
+        <item>Super Fine</item>
+        <item>Fine</item>
+        <item>Normal</item>
+        <item>Basic</item>
+    </string-array>
+
+    <string-array name="compressibility_ratio_value">
+        <item>CMP_2_7</item>
+        <item>CMP_4</item>
+        <item>CMP_8</item>
+        <item>CMP_12</item>
+    </string-array>
+
+    <string-array name="shooting_velocity">
+        <item>1fps</item>
+        <item>2fps</item>
+        <item>3fps</item>
+        <item>4fps</item>
+        <item>5fps</item>
+        <item>6fps</item>
+        <item>7fps</item>
+        <item>8fps</item>
+        <item>9fps</item>
+        <item>10fps</item>
+    </string-array>
+
+    <string-array name="shooting_velocity_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="recently_art_filter">
+        <item>Pop Art</item>
+        <item>Soft Focus</item>
+        <item>Pale &amp; Light Color</item>
+        <item>Light Tone</item>
+        <item>Grainy Film</item>
+        <item>Pin Hole</item>
+        <item>Diorama</item>
+        <item>Cross Process</item>
+        <item>Gentle Sepia</item>
+        <item>Dramatic Tone</item>
+        <item>Key Line</item>
+        <item>Watercolor</item>
+        <item>Vintage</item>
+        <item>Partial Color</item>
+        <!-- <item>(Art filter bracketing)</item> -->
+    </string-array>
+
+    <string-array name="recently_art_filter_value">
+        <item>POPART</item>
+        <item>FANTASIC_FOCUS</item>
+        <item>DAYDREAM</item>
+        <item>LIGHT_TONE</item>
+        <item>ROUGH_MONOCHROME</item>
+        <item>TOY_PHOTO</item>
+        <item>MINIATURE</item>
+        <item>CROSS_PROCESS</item>
+        <item>GENTLE_SEPIA</item>
+        <item>DRAMATIC_TONE</item>
+        <item>LIGNE_CLAIR</item>
+        <item>PASTEL</item>
+        <item>VINTAGE</item>
+        <item>PARTCOLOR</item>
+        <!-- <item>ART_BKT</item> -->
+    </string-array>
+
+    <array name="drivemode_icons">
+        <item>@drawable/icn_drive_setting_single</item>
+        <item>@drawable/icn_drive_setting_seq_l</item>
+    </array>
+
+    <string-array name="take_drive">
+        <item>DRIVE_NORMAL</item>
+        <item>DRIVE_CONTINUE</item>
+    </string-array>
+
+    <array name="whitebarance_icons">
+        <item>@drawable/icn_wb_setting_wbauto</item>
+        <item>@drawable/icn_wb_setting_16</item>
+        <item>@drawable/icn_wb_setting_17</item>
+        <item>@drawable/icn_wb_setting_18</item>
+        <item>@drawable/icn_wb_setting_20</item>
+        <item>@drawable/icn_wb_setting_35</item>
+        <item>@drawable/icn_wb_setting_64</item>
+        <item>@drawable/icn_wb_setting_512</item>
+    </array>
+
+    <string-array name="wb">
+        <item>WB_AUTO</item>
+        <item>MWB_SHADE</item>
+        <item>MWB_CLOUD</item>
+        <item>MWB_FINE</item>
+        <item>MWB_LAMP</item>
+        <item>MWB_FLUORESCENCE1</item>
+        <item>MWB_WATER_1</item>
+        <item>WB_CUSTOM1</item>
+    </string-array>
+    
+    <array name="batterylevel_icons">
+        <item>@drawable/tt_icn_battery_unknown</item>
+        <item>@drawable/tt_icn_battery_charge</item>
+        <item>@drawable/tt_icn_battery_empty</item>
+        <item>@drawable/tt_icn_battery_half</item>
+        <item>@drawable/tt_icn_battery_middle</item>
+        <item>@drawable/tt_icn_battery_full</item>
+        <item>@drawable/tt_icn_battery_supply_empty</item>
+        <item>@drawable/tt_icn_battery_supply_half</item>
+        <item>@drawable/tt_icn_battery_supply_middle</item>
+        <item>@drawable/tt_icn_battery_supply_full</item>
+    </array>
+
+    <string-array name="battery_level">
+        <item>UNKNOWN</item>
+        <item>CHARGE</item>
+        <item>EMPTY</item>
+        <item>WARNING</item>
+        <item>LOW</item>
+        <item>FULL</item>
+        <item>EMPTY_AC</item>
+        <item>SUPPLY_WARNING</item>
+        <item>SUPPLY_LOW</item>
+        <item>SUPPLY_FULL</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,21 @@
+ROUND 2
+Android ADK Dance Party
+Google Developer Days are a celebration of you, the developers.  With the Open Accessory API, we think you can make GDD the ultimate party!  Your task is to utilize the Android ADK and Open Accessories API to show us how your country rocks out. Integration of fun and exciting accessories, such as musical equipment, exercise equipment, robotics systems, lights, and many others, is highly encouraged!
+
+Round 2 will give you a chance to rock out with newest 3.1 version of the Android platform to enhance the Android user experience.  Android 3.1 was announced at Google I/O and is an incremental release that builds on the tablet-optimized UI and featured introduced in Android 3.0.
+
+
+
+
+Submission Guidelines
+Your delivery should consist of: a design document similar to a Product Requirements Document that details the code and hardware components of your accessory.  Additionally, please specify the build materials you will be purchasing or making yourself in order to create and implement your product plan.  We ask that your design document serve as an outline of how you will execute your ADK showcase product once awarded an Android ADK.    The design document should adhere to a 1-page minimum, 2-page maximum, outlining your ADK code and hardware plan.  The 2-page maximum includes pictures, codes, diagrams, and images.  
+
+Criteria: You must have access to a Nexus S, Nexus 1, or Xoom.  
+
+Selection
+Submissions will be judged based upon the following criteria: (1) technical merit, (2) a plan that is executable between July 18 and your GDDÅfs date, (3) code snippets, (4) presentation, including creativity and relevant theming.  Each regional selection committee will work with Google will choose 10 top submissions to showcase at the GDD.  Once selected, the top submissions will be provided an Android ADK to execute their plan and DJ the ultimate dance party to be featured at their local GDD conference.
+
+
+TIMELINE: The timeline is detailed below, but please also see the website for more information.
+Monday, 7/25 by midnight PDT: All Round 2 technical briefs must be submitted on your respective Google Form.
+Monday, 8/1: All Round 2 participants will be notified of their status.  Will you be a top 10 submission pick?

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AirA01a</string>
+    <string name="sdk_version">SDK VERSION :</string>
+    <string name="action_info">バージョン情報</string>
+    <string name="action_refreash">一覧の更新</string>
+    <string name="action_download">ダウンロード</string>
+    <string name="action_download_original_size">オリジナルサイズ</string>
+    <string name="action_download_2048x1536">2048 x 1536</string>
+    <string name="action_download_1920x1440">1920 x 1440</string>
+    <string name="action_download_1600x1200">1600 x 1200</string>
+    <string name="action_download_1024x768">1024 x 768</string>
+    <string name="pref_cat_camera">カメラ設定</string>
+    <string name="pref_cat_info">情報</string>
+    <string name="pref_live_view_quality">ライブビュー品質</string>
+    <string name="pref_touch_shutter">タッチシャッター</string>
+    <string name="pref_show_preview">撮影後に画像を表示</string>
+    <string name="pref_power_off">カメラの電源オフ</string>
+    <string name="pref_lens_status">レンズ状態</string>
+    <string name="pref_media_status">記録メディア状態</string>
+    <string name="pref_focal_length">レンズ焦点距離</string>
+    <string name="pref_camera_version">カメラバージョン</string>
+    <string name="pref_camerakit_version">開発キットバージョン</string>
+    <string name="dialog_start_wait_title">準備中</string>
+    <string name="dialog_start_wait_message">しばらくお待ち下さい...</string>
+    <string name="shutter_control_record_failed">記録失敗</string>
+    <string name="shutter_control_take_failed">撮影失敗</string>
+    <string name="shutter_control_af_failed">AF失敗</string>
+</resources>
