@@ -5,6 +5,11 @@ This repository is a copy of the OSDN GOKIGEN project Subversion repository (fro
 - https://osdn.net/projects/gokigen/scm/svn/ ( http://svn.osdn.net/svnroot/gokigen/ )
 - https://osdn.net/cvs/view/gokigen/ 
 
+The AirA01a and the AirA01b was moved to the Git repository below:
+
+- AirA01a : https://github.com/MRSa/AirA01a
+- AirA01b : https://github.com/MRSa/AirA01b
+
 --------
 
 Git repositories of GOKIGEN
